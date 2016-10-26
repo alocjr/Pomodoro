@@ -13,4 +13,4 @@ start:  mov     dx, msg
         mov     ah, 0 
         int     16h
         
-ret
+ret ; Devolver ao SO o controle do processador
